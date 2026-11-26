@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Logs & Temporary outputs
+*.log
+bridge_stderr.txt
+bridge_stdout.txt
+
+# Artifacts & Captures
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.har
+*.json
+!package.json
+
+# Certificates & State
+cacert.der
+.proxy_state.json
+
+# Profiles & Temporary Directories
+camoufox_profile/
+camoufox_profile_*
+cloak_profile/
+cloak_profile_*
+test_profile/
+test_profile_*
+profiles/
+temp_lw_profile/
+mcp_profile/
+backups/
+scratch/
+test_cloak_ui/
+test_cloak_ui2/
+test_ext/
+
+# Zip Archives
+*.zip
